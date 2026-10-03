@@ -17,6 +17,22 @@ const dataPelan = {
       nama: "Anugerah Max (Hibah Takaful)",
       tags: ["Hibah Takaful / Income Replacement", "Pelan Bajet"],
       kenapa: "Sangat sesuai untuk pasangan muda yang baru mendirikan rumah tangga serta ibu bapa yang mahukan perlindungan kewangan menyeluruh dengan komitmen caruman bulanan yang paling ekonomi.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "18 – 25", caruman: "RM50 – RM60 / bulan" },
+          { umur: "26 – 35", caruman: "RM61 – RM75 / bulan" },
+          { umur: "36 – 45", caruman: "RM76 – RM85 / bulan" },
+          { umur: "46 – 60", caruman: "RM86 – RM100 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Pampasan Kematian & TPD 100% melalui konsep Hibah Takaful" },
+          { icon: "✓", label: "Manfaat Kematian Akibat Kemalangan" },
+          { icon: "✓", label: "Nilai Tunai terkumpul" },
+          { icon: "✓", label: "Lebih 10 pilihan rider tambahan" },
+          { icon: "✓", label: "Hibah terus kepada penama" }
+        ]
+      },
       manfaat: [
         "Pampasan Kematian & TPD 100%",
         "Manfaat Kematian akibat Kemalangan",
@@ -29,6 +45,22 @@ const dataPelan = {
       nama: "Warisan Gold",
       tags: ["Hibah Takaful / Income Replacement", "Family Protection"],
       kenapa: "Membantu menyediakan dana tunai segera kepada waris untuk meneruskan kehidupan, melunaskan hutang dan melindungi kewangan keluarga.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "18 – 25", caruman: "RM100 / bulan" },
+          { umur: "26 – 35", caruman: "RM110 / bulan" },
+          { umur: "36 – 45", caruman: "RM120 / bulan" },
+          { umur: "46 – 60", caruman: "RM140 / bulan" }
+        ],
+        benefitTitle: "Contoh Manfaat Perlindungan",
+        benefitRows: [
+          { icon: "💗", label: "Kematian / TPD", amount: "RM350,000" },
+          { icon: "🚑", label: "Kematian Akibat Kemalangan", amount: "RM700,000" },
+          { icon: "🚌", label: "Kemalangan Pengangkutan Awam", amount: "RM1,050,000" },
+          { icon: "✈️", label: "Kemalangan Di Luar Negara", amount: "RM1,400,000" },
+          { icon: "🌊", label: "Kematian Akibat Bencana Alam", amount: "RM2,100,000" }
+        ]
+      },
       manfaat: [
         "Pampasan Kematian & TPD 100%",
         "Manfaat Gandaan Kemalangan sehingga 600%",
@@ -41,6 +73,29 @@ const dataPelan = {
       nama: "Warisan Gold Legacy",
       tags: ["Legacy Planning", "Business Owner"],
       kenapa: "Membantu membina legasi kewangan keluarga melalui hibah bernilai tinggi serta simpanan jangka panjang dengan tempoh bayaran terhad.",
+      quotePreview: {
+        contributionTitle: "Anggaran Caruman Tahunan",
+        contributionRows: [
+          { umur: "5 Tahun", caruman: "RM50,000 – RM180,000 setahun" },
+          { umur: "10 Tahun", caruman: "RM25,000 – RM100,000 setahun" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Pampasan Kematian & TPD 100%" },
+          { icon: "✓", label: "Manfaat Gandaan Kemalangan sehingga 600%" },
+          { icon: "✓", label: "Sejuta Kasih Hibah untuk keluarga" },
+          { icon: "✓", label: "Nilai tunai & simpanan terkumpul" },
+          { icon: "✓", label: "Rider Penyakit Kritikal" },
+          { icon: "✓", label: "Hibah terus kepada penama" }
+        ],
+        suitabilityTitle: "Sesuai Untuk",
+        suitabilityRows: [
+          "Pemilik perniagaan",
+          "Golongan profesional",
+          "Individu berpendapatan tinggi",
+          "Mereka yang ingin membina legasi keluarga"
+        ]
+      },
       manfaat: [
         "Hibah bernilai tinggi untuk keluarga",
         "Tempoh bayaran terhad",
@@ -55,6 +110,21 @@ const dataPelan = {
       nama: "Anugerah Max – Medical Card Plan R&B 150",
       tags: ["Medical Card", "Budget Friendly"],
       kenapa: "Pelan bajet yang memberikan perlindungan asas medical card dengan had tahunan untuk memenuhi kebanyakan keperluan hospitalisasi di Malaysia.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "Kanak-kanak", caruman: "Serendah RM90 / bulan" },
+          { umur: "Dewasa", caruman: "Serendah RM113 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Had Tahunan RM150,000" },
+          { icon: "✓", label: "Protect Well (In-Patient)" },
+          { icon: "✓", label: "Pre & Post Hospitalisation (120 hari sebelum & selepas)" },
+          { icon: "✓", label: "Nilai Tunai (Cash Value)" },
+          { icon: "✓", label: "Hibah Asas RM10,000" },
+          { icon: "✓", label: "10+ Rider Tambahan" }
+        ]
+      },
       manfaat: [
         "Had Tahunan RM150,000",
         "Protect Well (In-Patient)",
@@ -67,6 +137,24 @@ const dataPelan = {
       nama: "Anugerah Max – Medical Card Plan R&B 200",
       tags: ["Medical Card", "Family Protection"],
       kenapa: "Perlindungan menyeluruh untuk keluarga dengan had tahunan berganda dan manfaat pesakit luar untuk penyakit berjangkit serta kemalangan.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "Kanak-kanak", caruman: "Serendah RM103 / bulan" },
+          { umur: "Dewasa", caruman: "Serendah RM123 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Had Tahunan RM200,000" },
+          { icon: "✓", label: "Had Tahunan Tambahan RM200,000" },
+          { icon: "✓", label: "Protect Well (In-Patient)" },
+          { icon: "✓", label: "Pre & Post Hospitalisation" },
+          { icon: "✓", label: "Outpatient Penyakit Berjangkit" },
+          { icon: "✓", label: "Outpatient Kemalangan" },
+          { icon: "✓", label: "Manfaat Vaksinasi RM300" },
+          { icon: "✓", label: "Hibah Asas RM10,000" },
+          { icon: "✓", label: "10+ Rider Tambahan" }
+        ]
+      },
       manfaat: [
         "Had Tahunan RM200,000",
         "Had Tambahan RM200,000",
@@ -79,6 +167,26 @@ const dataPelan = {
       nama: "Anugerah Max – Medical Card Plan R&B 250",
       tags: ["Medical Card", "Enhanced Protection"],
       kenapa: "Perlindungan premium dengan had tahunan tinggi dan liputan komprehensif termasuk komplikasi kehamilan untuk ketenangan minda sepenuhnya.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "Kanak-kanak", caruman: "Serendah RM120 / bulan" },
+          { umur: "Dewasa", caruman: "Serendah RM135 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Had Tahunan RM250,000" },
+          { icon: "✓", label: "Had Tahunan Tambahan RM250,000" },
+          { icon: "✓", label: "Protect Well (In-Patient)" },
+          { icon: "✓", label: "Pre & Post Hospitalisation" },
+          { icon: "✓", label: "Outpatient Penyakit Berjangkit" },
+          { icon: "✓", label: "Outpatient Kemalangan" },
+          { icon: "✓", label: "Manfaat Vaksinasi" },
+          { icon: "✓", label: "Komplikasi Kehamilan" },
+          { icon: "✓", label: "Nilai Tunai (Cash Value)" },
+          { icon: "✓", label: "Hibah Asas RM10,000" },
+          { icon: "✓", label: "10+ Rider Tambahan" }
+        ]
+      },
       manfaat: [
         "Had Tahunan RM250,000",
         "Had Tambahan RM250,000",
@@ -91,6 +199,26 @@ const dataPelan = {
       nama: "Anugerah Max – Medic Total Care (Plan 250) + MedicBoost",
       tags: ["Exclusive Medical Card", "Perlindungan Sehingga RM1 Juta"],
       kenapa: "Kombinasi eksklusif yang memberikan boost had tahunan sehingga RM1 juta — pilihan terbaik untuk mereka yang mahukan perlindungan maksimum tanpa had.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "Kanak-kanak", caruman: "Serendah RM140 / bulan" },
+          { umur: "Dewasa", caruman: "Serendah RM160 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Had Tahunan RM250,000" },
+          { icon: "✓", label: "Had Tahunan Tambahan RM250,000" },
+          { icon: "✓", label: "Boost Had Tahunan Sehingga RM1 Juta" },
+          { icon: "✓", label: "Protect Well (In-Patient)" },
+          { icon: "✓", label: "Pre & Post Hospitalisation" },
+          { icon: "✓", label: "Outpatient Penyakit Berjangkit" },
+          { icon: "✓", label: "Outpatient Kemalangan" },
+          { icon: "✓", label: "Manfaat Vaksinasi" },
+          { icon: "✓", label: "Komplikasi Kehamilan" },
+          { icon: "✓", label: "Hibah Asas RM10,000" },
+          { icon: "✓", label: "10+ Rider Tambahan" }
+        ]
+      },
       manfaat: [
         "Boost Had Tahunan sehingga RM1 juta",
         "Komplikasi Kehamilan",
@@ -103,6 +231,26 @@ const dataPelan = {
       nama: "Health360",
       tags: ["Premier Medical Card", "Tiada Had Tahunan"],
       kenapa: "Pelan perubatan premier tanpa had tahunan dan had perlindungan yang tinggi — perlindungan tanpa batas untuk anda dan keluarga tercinta.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "Kanak-kanak", caruman: "Serendah RM185 / bulan" },
+          { umur: "Dewasa", caruman: "Serendah RM200 / bulan" },
+          { umur: "Room & Board", caruman: "Bermula RM200 sehari" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Tiada Had Tahunan" },
+          { icon: "✓", label: "Had Perlindungan Yang Tinggi" },
+          { icon: "✓", label: "Bonus SVP 2%" },
+          { icon: "✓", label: "Protect Well (In-Patient)" },
+          { icon: "✓", label: "ICU, Pembedahan, Ambulans & Pemindahan Organ" },
+          { icon: "✓", label: "Perlindungan Kanser & Penyakit Buah Pinggang" },
+          { icon: "✓", label: "Outpatient Penyakit Berjangkit" },
+          { icon: "✓", label: "Outpatient Kanak-kanak" },
+          { icon: "✓", label: "Rawatan Kesihatan Mental" },
+          { icon: "✓", label: "Penjagaan Kejururawatan Di Rumah" }
+        ]
+      },
       manfaat: [
         "Tiada Had Tahunan",
         "Had perlindungan yang tinggi",
@@ -115,6 +263,32 @@ const dataPelan = {
       nama: "Pre Birth + Medical Card",
       tags: ["Pre Birth + Medical", "Perlindungan Ibu & Bayi"],
       kenapa: "Membantu ibu bapa membuat persediaan dari segi kewangan, kesihatan dan emosi sebelum bayi lahir.",
+      quotePreview: {
+        contributionRows: [
+          { umur: "🟢 Basic", caruman: "Serendah RM329 / bulan" },
+          { umur: "🔵 Essential", caruman: "Serendah RM369 / bulan" },
+          { umur: "🟣 Superior", caruman: "Serendah RM425 / bulan" }
+        ],
+        comparisonTitle: "Perbandingan Pelan",
+        comparisonRows: [
+          { label: "Komplikasi Kehamilan", values: ["RM2,500", "RM5,000", "RM8,000"] },
+          { label: "Elaun Hospital Harian", values: ["Tiada", "RM100 / hari", "RM100 / hari"] },
+          { label: "Pembedahan Caesarean Kecemasan", values: ["Tiada", "Tiada", "RM5,000"] },
+          { label: "Kematian Janin", values: ["RM2,500", "RM5,000", "RM8,000"] },
+          { label: "Kematian Ibu", values: ["RM10,000", "RM20,000", "RM50,000"] },
+          { label: "Kesejahteraan Mental", values: ["Tiada", "Tiada", "RM5,000"] },
+          { label: "Kematian Anak", values: ["RM2,500", "RM5,000", "RM8,000"] },
+          { label: "ICU / HDU", values: ["RM300 / hari", "RM400 / hari", "RM500 / hari"] },
+          { label: "Inkubasi Anak Baru Lahir", values: ["RM100 / hari", "RM200 / hari", "RM300 / hari"] },
+          { label: "Jaundice Neonatal / Fototerapi", values: ["RM500", "RM1,000", "RM2,000"] },
+          { label: "Keadaan Kongenital", values: ["RM15,000 setahun", "RM30,000 setahun", "RM50,000 setahun"] },
+          { label: "Gangguan Perkembangan Kanak-kanak", values: ["Tiada", "Tiada", "RM5,000 setahun"] },
+          { label: "Medical Card Annual Limit", values: ["RM1,000,000", "RM1,000,000", "RM1,000,000"] },
+          { label: "Lifetime Limit", values: ["Unlimited", "Unlimited", "Unlimited"] },
+          { label: "Room & Board", values: ["RM200", "RM200", "RM200"] }
+        ],
+        benefitRows: []
+      },
       manfaat: [
         "Pampasan Kematian Ibu & Bayi",
         "Manfaat Keguguran",
@@ -130,6 +304,21 @@ const dataPelan = {
       subtitle: "CRITICAL ILLNESS PROTECTION",
       tags: ["Critical Illness"],
       kenapa: "Pelan pampasan penyakit kritikal yang membantu menyediakan sokongan kewangan apabila didiagnosis penyakit kritikal, supaya pelanggan boleh fokus kepada rawatan dan proses pemulihan.",
+      quotePreview: {
+        contributionTitle: "Anggaran Caruman",
+        contributionRows: [
+          { umur: "Critical Illness Protection", caruman: "Serendah RM50 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Pampasan untuk Penyakit Kritikal Peringkat Awal" },
+          { icon: "✓", label: "Pampasan untuk Penyakit Kritikal Peringkat Akhir" },
+          { icon: "✓", label: "Perlindungan meningkat secara automatik setiap 5 tahun sehingga tambahan 30%" },
+          { icon: "✓", label: "Elaun Pemulihan RM10,000 untuk pembedahan besar atau kemasukan ICU" },
+          { icon: "✓", label: "Manfaat Penyakit Terminal dan Kematian" },
+          { icon: "✓", label: "Tertakluk kepada terma, syarat dan kelulusan PruBSN Takaful." }
+        ]
+      },
       manfaat: [
         "Pampasan Penyakit Kritikal Peringkat Awal",
         "Pampasan Penyakit Kritikal Peringkat Akhir",
@@ -145,6 +334,21 @@ const dataPelan = {
       nama: "PRUBSN Anggun",
       tags: ["Lady Plan", "Khas Untuk Wanita"],
       kenapa: "Pelan perlindungan khas untuk wanita di setiap peringkat kehidupan, dengan perlindungan penyakit wanita, sokongan mental, ganjaran tunai dan manfaat ibu & bayi.",
+      quotePreview: {
+        contributionTitle: "Anggaran Caruman",
+        contributionRows: [
+          { umur: "Lady Plan", caruman: "Serendah RM50 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Penyakit khusus wanita" },
+          { icon: "✓", label: "Ganjaran berkahwin, melahirkan anak, haji/umrah & pendidikan" },
+          { icon: "✓", label: "Penjagaan mental sehingga RM5,000" },
+          { icon: "✓", label: "Mom Care untuk kehamilan, kesuburan & bayi" },
+          { icon: "✓", label: "Perlindungan fleksibel mengikut bajet" },
+          { icon: "✓", label: "Tertakluk kepada terma & syarat polisi Prudential BSN Takaful Berhad." }
+        ]
+      },
       manfaat: [
         "Perlindungan penyakit khusus wanita",
         "Ganjaran tunai untuk peristiwa hidup",
@@ -159,6 +363,24 @@ const dataPelan = {
       nama: "Pre Birth",
       tags: ["Pre Birth Protection", "Perlindungan Ibu & Bayi"],
       kenapa: "Sebagai satu persediaan awal untuk memastikan bayi mendapat perlindungan dan ibu bapa lebih tenang menghadapi sebarang kemungkinan sebelum, semasa, dan selepas kelahiran.",
+      quotePreview: {
+        contributionTitle: "Anggaran Caruman Bulanan",
+        contributionRows: [
+          { umur: "🟢 Basic", caruman: "Serendah RM65 / bulan" },
+          { umur: "🔵 Essential", caruman: "Serendah RM80 / bulan" },
+          { umur: "🟣 Superior", caruman: "Serendah RM100 / bulan" }
+        ],
+        benefitTitle: "Manfaat Utama",
+        benefitRows: [
+          { icon: "✓", label: "Pampasan Kematian Ibu & Bayi" },
+          { icon: "✓", label: "Manfaat Keguguran" },
+          { icon: "✓", label: "Manfaat Komplikasi Kehamilan" },
+          { icon: "✓", label: "Manfaat Elaun Wad" },
+          { icon: "✓", label: "Manfaat Komplikasi Bayi" },
+          { icon: "✓", label: "Simpanan (Saving) Bayi" },
+          { icon: "✓", label: "Manfaat Penyakit Tumbesaran Bayi (ADHD, Autisma dan lain-lain)" }
+        ]
+      },
       manfaat: [
         "Pampasan Kematian Ibu & Bayi",
         "Manfaat Keguguran",
@@ -182,33 +404,16 @@ const dataPelan = {
       ]
     }
   ],
-  mikro: [
-    {
-      id: "microtakaful",
-      nama: "PruBSN Microtakaful (Pelan Mampu Milik)",
-      badge: "BAJET RENDAH",
-      tags: ["Mampu Milik", "B40", "Perlindungan Asas"],
-      kenapa: "Pelan perlindungan asas dengan caruman sangat rendah sesuai untuk golongan B40 dan pekerja gig yang ingin memulakan langkah pertama perlindungan.",
-      manfaat: [
-        "Caruman bermula serendah RM20/bulan",
-        "Perlindungan asas kematian & TPD",
-        "Proses permohonan mudah & pantas",
-        "Sesuai untuk semua golongan pendapatan"
-      ]
-    }
-  ]
 };
 
 dataPelan.hibah.push(
   ...dataPelan.wanita,
   ...dataPelan.kanak,
-  ...dataPelan.simpanan,
-  ...dataPelan.mikro
+  ...dataPelan.simpanan
 );
 delete dataPelan.wanita;
 delete dataPelan.kanak;
 delete dataPelan.simpanan;
-delete dataPelan.mikro;
 
 // ==========================================
 // 2. FUNGSI WHATSAPP DIRECT DENGAN TEMPLATE
@@ -272,6 +477,12 @@ function paparkanPelan(kategori) {
   if (perbandinganKritikal) perbandinganKritikal.hidden = kategori !== "kritikal";
   const faqContainer = document.getElementById("critical-faq-container");
   if (faqContainer) faqContainer.hidden = kategori !== "kritikal";
+  const senarioSection = document.getElementById("senario");
+  if (senarioSection) senarioSection.hidden = kategori !== "kritikal";
+  if (kategori === "kritikal" && senarioSection) {
+    const senarioButton = senarioSection.querySelector(".senario-tab-btn[onclick*=\"'kritikal'\"]");
+    pilihSenario("kritikal", senarioButton);
+  }
   const hibahJourney = document.getElementById("hibah-category-journey");
   const medicalJourney = document.getElementById("medical-category-journey");
   if (hibahJourney) hibahJourney.hidden = kategori !== "hibah";
@@ -301,7 +512,7 @@ function paparkanPelan(kategori) {
         </div>
         ${pelan.subtitle ? `<p class="plan-card-subtitle">${teks(pelan.subtitle)}</p>` : ""}
         <h3 class="plan-card-title">${teks(pelan.nama)}</h3>
-        
+
         <div class="plan-card-reason">
           <p class="plan-card-label">${teks("Kenapa Pelan Ini Diperlukan?")}</p>
           <p>${teks(pelan.kenapa)}</p>
@@ -363,6 +574,17 @@ function bukaFaq() {
   });
 }
 
+function bukaSenario() {
+  pilihKategori("kritikal");
+
+  const panel = document.getElementById("plan-selection-panel");
+  if (panel?.hidden) toggleKategoriPelan();
+
+  requestAnimationFrame(() => {
+    document.getElementById("senario")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
 function toggleKategoriPelan() {
   const panel = document.getElementById("plan-selection-panel");
   const toggle = document.getElementById("category-toggle-btn");
@@ -380,18 +602,111 @@ function toggleKategoriPelan() {
 // ==========================================
 // 4. MODAL SEBUT HARGA PANTAS
 // ==========================================
+function renderQuotePreview(namaPelan) {
+  const container = document.getElementById("plan-quote-preview-content");
+  const pelan = Object.values(dataPelan).flat().find(item => item.nama === namaPelan);
+  if (!container || !pelan?.quotePreview) return;
+
+  const preview = pelan.quotePreview;
+  container.innerHTML = `
+    <h4 class="plan-card-label">${teks(preview.contributionTitle || "Anggaran Caruman Bulanan")}</h4>
+    <ul class="plan-quote-estimate-list">
+      ${preview.contributionRows.map(row => `
+        <li><span>${teks(row.umur)}</span><strong>${teks(row.caruman)}</strong></li>
+      `).join("")}
+    </ul>
+    <p class="plan-quote-estimate-note">${teks("Anggaran sahaja. Caruman dan manfaat sebenar tertakluk pada sebut harga rasmi, kelayakan serta terma sijil.")}</p>
+    ${preview.comparisonRows?.length ? `
+      <h4 class="plan-card-label plan-quote-benefits-title">${teks(preview.comparisonTitle || "Perbandingan Pelan")}</h4>
+      <div class="plan-quote-comparison-scroll" role="region" aria-label="${teks(preview.comparisonTitle || "Perbandingan Pelan")}" tabindex="0">
+        <table class="plan-quote-comparison">
+          <thead>
+            <tr>
+              <th scope="col">${teks("Manfaat")}</th>
+              <th scope="col">${teks("Basic")}</th>
+              <th scope="col">${teks("Essential")}</th>
+              <th scope="col">${teks("Superior")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${preview.comparisonRows.map(row => `
+              <tr>
+                <th scope="row">${teks(row.label)}</th>
+                ${row.values.map(value => `<td>${teks(value)}</td>`).join("")}
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    ` : ""}
+    ${preview.benefitRows.length ? `
+      <h4 class="plan-card-label plan-quote-benefits-title">${teks(preview.benefitTitle)}</h4>
+      <ul class="plan-card-benefits plan-quote-benefits ${preview.benefitRows.some(row => row.amount) ? "plan-quote-benefit-amounts" : ""}">
+        ${preview.benefitRows.map(row => `
+          <li>
+            <span aria-hidden="true">${row.icon}</span>
+            <span>${teks(row.label)}</span>
+            ${row.amount ? `<strong>${teks(row.amount)}</strong>` : ""}
+          </li>
+        `).join("")}
+      </ul>
+    ` : ""}
+    ${preview.suitabilityRows?.length ? `
+      <h4 class="plan-card-label plan-quote-suitability-title">${teks(preview.suitabilityTitle || "Sesuai Untuk")}</h4>
+      <ul class="plan-quote-suitability-list">
+        ${preview.suitabilityRows.map(row => `<li>${teks(row)}</li>`).join("")}
+      </ul>
+    ` : ""}
+  `;
+}
+
 function bukaPlanModal(namaPelan) {
   const modal = document.getElementById("planModalBackdrop");
   const modalTitle = document.getElementById("modalPlanTitle");
   const modalPlanInput = document.getElementById("modalPlanNameInput");
+  const modalDescription = document.getElementById("modalPlanDescription");
+  const preview = document.getElementById("plan-quote-preview");
+  const form = document.getElementById("planQuoteForm");
+  const pelan = Object.values(dataPelan).flat().find(item => item.nama === namaPelan);
+  const hasQuotePreview = Boolean(pelan?.quotePreview);
 
   if (modalTitle) modalTitle.innerText = teks(namaPelan);
   if (modalPlanInput) modalPlanInput.value = namaPelan;
+  if (modalDescription) {
+    modalDescription.textContent = teks(hasQuotePreview
+      ? "Semak anggaran caruman dan manfaat pelan sebelum meminta sebut harga."
+      : "Sila lengkapkan maklumat ringkas untuk penyediaan quotation rasmi.");
+  }
+  if (preview) preview.hidden = !hasQuotePreview;
+  if (form) form.hidden = hasQuotePreview;
+  if (hasQuotePreview) renderQuotePreview(namaPelan);
 
   if (modal) {
     modal.classList.add("open");
     document.body.style.overflow = "hidden";
   }
+}
+
+function teruskanSebutHargaPreview() {
+  const preview = document.getElementById("plan-quote-preview");
+  const form = document.getElementById("planQuoteForm");
+  if (preview) preview.hidden = true;
+  if (form) {
+    form.hidden = false;
+    const modalDescription = document.getElementById("modalPlanDescription");
+    if (modalDescription) {
+      modalDescription.textContent = teks("Sila lengkapkan maklumat ringkas untuk penyediaan quotation rasmi.");
+    }
+    document.getElementById("modal-nama")?.focus();
+  }
+}
+
+function whatsappPelanPreview() {
+  const pelan = document.getElementById("modalPlanNameInput")?.value || "pelan Takaful";
+  tutupPlanModal();
+  bukaWhatsAppDirect(
+    `Assalamualaikum Mekja, saya berminat dengan ${pelan}. Boleh bantu saya semak anggaran caruman dan cadangan pelan?`
+  );
 }
 
 function tutupPlanModal() {
@@ -803,26 +1118,27 @@ function pilihSenario(senarioKey, el) {
   if (!container) return;
 
   container.innerHTML = `
-    <div class="grid md:grid-cols-2 gap-8 items-center">
-      <div class="space-y-4">
-        <span class="text-xs font-bold uppercase tracking-wider text-rose-700 bg-rose-50 border border-rose-200 px-3 py-1 rounded-full">
+    <div class="scenario-detail-grid">
+      <div class="scenario-risk">
+        <span class="scenario-label scenario-risk-label">
           ${teks("Risiko Nyata")}
         </span>
-        <h4 class="font-serif text-2xl font-bold text-[#222]">${teks(data.tajuk)}</h4>
-        <p class="text-[#444] text-sm leading-relaxed">${teks(data.risiko)}</p>
-        <div class="p-4 bg-[#F8F9FA] border border-[#E0E0E0] rounded-2xl">
-          <p class="text-xs text-[#999] font-semibold uppercase mb-1">${teks("Pelan Disyorkan:")}</p>
-          <p class="text-sm font-bold text-[#222]">${teks(data.pelanBerkaitan)}</p>
+        <h3>${teks(data.tajuk)}</h3>
+        <p class="scenario-risk-description">${teks(data.risiko)}</p>
+        <div class="scenario-plan">
+          <p>${teks("Pelan Disyorkan:")}</p>
+          <strong>${teks(data.pelanBerkaitan)}</strong>
         </div>
       </div>
-      <div class="bg-gradient-to-br from-[#ED1B24] to-[#D01018] text-white p-7 rounded-2xl shadow-card border border-white/10 space-y-4">
-        <span class="text-xs font-bold uppercase tracking-wider text-white/90 bg-white/15 border border-white/20 px-3 py-1 rounded-full">
+      <div class="scenario-solution">
+        <span class="scenario-label scenario-solution-label">
           ${teks("Solusi & Perlindungan Takaful")}
         </span>
-        <p class="text-sm text-white/90 leading-relaxed">${teks(data.solusiTakaful)}</p>
-        <div class="pt-3">
-          <button onclick="bukaWhatsAppDirect('Assalamualaikum Mekja, saya ingin tahu bagaimana Takaful melindungi situasi: ${data.tajuk}')" class="w-full bg-white hover:bg-gray-50 text-[#ED1B24] font-bold py-3 px-5 rounded-full transition text-xs md:text-sm flex items-center justify-center gap-2 btn-magnetic shadow-sm">
-            <i class="fab fa-whatsapp text-emerald-600"></i> ${teks("Rujuk Situasi Ini Bersama Mekja")}
+        <p>${teks(data.solusiTakaful)}</p>
+        <div class="scenario-solution-action">
+          <button onclick="bukaWhatsAppDirect('Assalamualaikum Mekja, saya ingin tahu bagaimana Takaful melindungi situasi: ${data.tajuk}')" class="scenario-whatsapp-btn">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+            ${teks("Rujuk Situasi Ini Bersama Mekja")}
           </button>
         </div>
       </div>
@@ -861,7 +1177,7 @@ const textTranslations = {
   "KHAS WANITA": "DESIGNED FOR WOMEN", "PELAN PENDIDIKAN": "EDUCATION PLAN",
   "Lihat Selanjutnya": "Learn More", "Tidak Pasti Pelan Mana?": "Not Sure Which Plan?",
   "Hubungi Mekja untuk konsultasi percuma & cadangan pelan terbaik mengikut\n              bajet anda.": "Contact me for a free consultation and plan recommendations to suit your budget.",
-  "Hubungi Sekarang": "Contact Me Now", "TENTANG SAYA": "ABOUT ME",
+  "WhatsApp Sekarang": "WhatsApp Now", "Hubungi Sekarang": "Contact Me Now", "TENTANG SAYA": "ABOUT ME",
   "Saya Di Sini Untuk Anda": "I Am Here for You",
   "Nama saya": "My name is", "Penilaian Pelanggan": "Client Rating",
   "Tahun Pengalaman": "Years of Experience", "Keluarga Dibantu": "Families Helped",
@@ -904,7 +1220,9 @@ const textTranslations = {
   "Medical Card membantu mengurus kos rawatan hospital mengikut manfaat, had dan terma pelan yang dipilih.": "A Medical Card can help manage hospital treatment costs, subject to the selected plan's benefits, limits and terms.",
   "Lihat pilihan Medical Card": "Explore Medical Card plans",
   "Pilihan Takaful": "Takaful Options", "Pelan Takaful": "Takaful Plans",
-  "Pilih Kategori Pelan Mengikut Keutamaan": "Choose a Plan Category Based on Your Priorities",
+  "PRUDENTIAL BSN TAKAFUL": "PRUDENTIAL BSN TAKAFUL",
+  "PELAN TAKAFUL TERBAIK DI ": "BEST TAKAFUL PLANS AT ",
+  "Pilih perlindungan yang sesuai untuk diri, keluarga dan masa depan anda.": "Choose the right protection for you, your family and your future.",
   "Lihat Kategori & Pilihan Pelan": "Show Plan Categories & Options",
   "Sembunyikan Kategori & Pilihan Pelan": "Hide Plan Categories & Options",
   "Pilihan Pelan Hibah Takaful": "Hibah Takaful Plan Options",
@@ -928,7 +1246,7 @@ const textTranslations = {
   "Akaun Dibekukan:": "Frozen Accounts:", "Medical Card Cashless:": "Cashless Medical Card:",
   "Hibah Tunai Segera:": "Immediate Hibah Payout:", "Ketenangan Fikiran:": "Peace of Mind:",
   "UJIAN HIDUP & PERLINDUNGAN": "LIFE'S CHALLENGES & PROTECTION",
-  "Situasi Kehidupan Sebenar: Bagaimana Takaful Membantu?": "Real-Life Situations: How Can Takaful Help?",
+  "Bagaimana Takaful Membantu?": "How Does Takaful Help?",
   "Pilih salah satu senario di bawah untuk melihat bagaimana pelan takaful bertindak melindungi anda:": "Choose a scenario below to see how Takaful can protect you:",
   "🏥 Kemasukan Wad Hospital": "🏥 Hospital Admission",
   "⚠️ Sakit Kritikal & Hilang Upaya": "⚠️ Critical Illness & Disability",
@@ -947,6 +1265,71 @@ const textTranslations = {
   "Anggaran Caruman Hibah Pantas": "Quick Hibah Contribution Estimate",
   "Pilih pelan, umur dan jumlah perlindungan untuk melihat anggaran ilustrasi caruman bulanan.": "Choose a plan, age and coverage amount to view an illustrative monthly contribution estimate.",
   "Pilihan Pelan Hibah": "Hibah Plan Selection",
+  "Anggaran sahaja. Caruman sebenar bergantung pada maklumat dan kelulusan permohonan.": "Estimates only. Actual contributions depend on application details and approval.",
+  "Semak anggaran caruman dan manfaat pelan sebelum meminta sebut harga.": "Review the estimated contributions and plan benefits before requesting a quote.",
+  "Contoh Manfaat Perlindungan": "Example Protection Benefits",
+  "Anggaran Caruman Tahunan": "Estimated Annual Contribution",
+  "Anggaran Caruman": "Estimated Contribution",
+  "Sesuai Untuk": "Suitable For",
+  "Ringkasan anggaran pelan": "Plan estimate summary",
+  "Anggaran sahaja. Caruman dan manfaat sebenar tertakluk pada sebut harga rasmi, kelayakan serta terma sijil.": "Estimates only. Actual contributions and benefits are subject to the official quote, eligibility and certificate terms.",
+  "5 Tahun": "5 Years",
+  "10 Tahun": "10 Years",
+  "18 – 25": "18 – 25",
+  "26 – 35": "26 – 35",
+  "36 – 45": "36 – 45",
+  "46 – 60": "46 – 60",
+  "RM50 – RM60 / bulan": "RM50 – RM60 / month",
+  "RM61 – RM75 / bulan": "RM61 – RM75 / month",
+  "RM76 – RM85 / bulan": "RM76 – RM85 / month",
+  "RM86 – RM100 / bulan": "RM86 – RM100 / month",
+  "RM100 / bulan": "RM100 / month",
+  "RM110 / bulan": "RM110 / month",
+  "RM120 / bulan": "RM120 / month",
+  "RM140 / bulan": "RM140 / month",
+  "RM50,000 – RM180,000 setahun": "RM50,000 – RM180,000 per year",
+  "RM25,000 – RM100,000 setahun": "RM25,000 – RM100,000 per year",
+  "Sejuta Kasih Hibah untuk keluarga": "Sejuta Kasih Hibah for your family",
+  "Nilai tunai & simpanan terkumpul": "Accumulated cash value and savings",
+  "Pemilik perniagaan": "Business owners",
+  "Golongan profesional": "Professionals",
+  "Individu berpendapatan tinggi": "High-income individuals",
+  "Mereka yang ingin membina legasi keluarga": "Those who want to build a family legacy",
+  "Critical Illness Protection": "Critical Illness Protection",
+  "Serendah RM50 / bulan": "From RM50 / month",
+  "Pampasan untuk Penyakit Kritikal Peringkat Awal": "Benefit for early-stage critical illness",
+  "Pampasan untuk Penyakit Kritikal Peringkat Akhir": "Benefit for late-stage critical illness",
+  "Perlindungan meningkat secara automatik setiap 5 tahun sehingga tambahan 30%": "Coverage automatically increases every 5 years by up to an additional 30%",
+  "Elaun Pemulihan RM10,000 untuk pembedahan besar atau kemasukan ICU": "RM10,000 recovery allowance for major surgery or ICU admission",
+  "Manfaat Penyakit Terminal dan Kematian": "Terminal illness and death benefit",
+  "Tertakluk kepada terma, syarat dan kelulusan PruBSN Takaful.": "Subject to PruBSN Takaful terms, conditions and approval.",
+  "Lady Plan": "Lady Plan",
+  "Penyakit khusus wanita": "Women's specific illnesses",
+  "Ganjaran berkahwin, melahirkan anak, haji/umrah & pendidikan": "Rewards for marriage, childbirth, Hajj/Umrah and education",
+  "Penjagaan mental sehingga RM5,000": "Mental wellness support up to RM5,000",
+  "Mom Care untuk kehamilan, kesuburan & bayi": "Mom Care for pregnancy, fertility and baby",
+  "Perlindungan fleksibel mengikut bajet": "Flexible coverage to suit your budget",
+  "Tertakluk kepada terma & syarat polisi Prudential BSN Takaful Berhad.": "Subject to the terms and conditions of the Prudential BSN Takaful Berhad policy.",
+  "🟢 Basic": "🟢 Basic",
+  "🔵 Essential": "🔵 Essential",
+  "🟣 Superior": "🟣 Superior",
+  "Serendah RM65 / bulan": "From RM65 / month",
+  "Serendah RM80 / bulan": "From RM80 / month",
+  "Serendah RM100 / bulan": "From RM100 / month",
+  "Manfaat Komplikasi Bayi": "Baby complication benefit",
+  "Simpanan (Saving) Bayi": "Baby savings",
+  "Manfaat Penyakit Tumbesaran Bayi (ADHD, Autisma dan lain-lain)": "Benefits for developmental conditions (ADHD, autism and others)",
+  "Kematian / TPD": "Death / TPD",
+  "Kematian Akibat Kemalangan": "Accidental Death",
+  "Kemalangan Pengangkutan Awam": "Public Transport Accident",
+  "Kemalangan Di Luar Negara": "Overseas Accident",
+  "Kematian Akibat Bencana Alam": "Death Due to Natural Disaster",
+  "Pampasan Kematian & TPD 100% melalui konsep Hibah Takaful": "100% Death & TPD benefit through the Hibah Takaful concept",
+  "Manfaat Kematian Akibat Kemalangan": "Accidental Death Benefit",
+  "Nilai Tunai terkumpul": "Accumulated Cash Value",
+  "Hibah terus kepada penama": "Hibah paid directly to the named beneficiary",
+  "WhatsApp Mekja": "WhatsApp Mekja",
+  "Teruskan untuk sebut harga": "Continue to get a quote",
   "Ini merupakan anggaran awal sahaja. Caruman sebenar bergantung pada umur, jantina, pekerjaan, status kesihatan, status merokok dan keputusan underwriting Prudential BSN.": "This is an initial estimate only. Actual contributions depend on age, gender, occupation, health status, smoking status and Prudential BSN underwriting decisions.",
   "Anggaran Caruman Bulanan": "Estimated Monthly Contribution", "Sila masukkan umur": "Please enter your age",
   "Umur mestilah nombor bulat antara 18 hingga 60 tahun.": "Age must be a whole number between 18 and 60.",
@@ -982,8 +1365,15 @@ const textTranslations = {
   "Perancangan Legasi": "Legacy Planning",
   "Hantar & Semak Kelayakan Bersama Mekja": "Submit & Check Your Eligibility",
   "Maklumat anda dilindungi dan hanya digunakan untuk penyediaan sebut harga Takaful.": "Your information is protected and used only to prepare a Takaful quote.",
-  "APA KATA PELANGGAN?": "WHAT OUR CLIENTS SAY",
-  "Kepuasan Mereka Inspirasi Saya": "Their Satisfaction Inspires Me",
+  "Pengiktirafan": "Recognition",
+  "Pencapaian & Pengiktirafan Prudential BSN Takaful": "Prudential BSN Takaful Achievements & Recognition",
+  "Lihat pengiktirafan dan pencapaian yang menjadi sebahagian daripada perjalanan kami.": "Explore the recognition and achievements that are part of our journey.",
+  "Pengiktirafan Prudential BSN Takaful": "Prudential BSN Takaful recognition",
+  "Pilih gambar pengiktirafan": "Choose a recognition image",
+  "Gambar pengiktirafan sebelumnya": "Previous recognition image",
+  "Gambar pengiktirafan seterusnya": "Next recognition image",
+  "Lihat gambar pengiktirafan 1": "View recognition image 1",
+  "Lihat gambar pengiktirafan 2": "View recognition image 2",
   "VISI PERLINDUNGAN": "OUR VISION FOR PROTECTION",
   "Perancangan Hari Ini, Ketenangan Esok": "Plan Today, Enjoy Peace of Mind Tomorrow",
   "SOALAN LAZIM": "FREQUENTLY ASKED QUESTIONS",
@@ -1374,6 +1764,8 @@ const textTranslations = {
   "Testimoni Sebelum": "Previous testimonial",
   "Testimoni Seterusnya": "Next testimonial",
   "Peta Akademi MDA Elite Club PruBSN Takaful, Kuantan": "Map to Akademi MDA Elite Club PruBSN Takaful, Kuantan",
+  "Pengiktirafan Takaful Star Awards 2026: Pengendali Takaful Terbaik Takaful Keluarga (Perniagaan Agensi), 13 tahun berturut-turut.": "Takaful Star Awards 2026 recognition: Best Takaful Operator for Family Takaful (Agency Business), for 13 consecutive years.",
+  "Takaful Star Awards 2026: setiap kemenangan melambangkan keyakinan rakyat Malaysia untuk terus dilindungi bersama PruBSN.": "Takaful Star Awards 2026: every win represents Malaysians' confidence in continuing to be protected with PruBSN.",
   "Maklumat agensi dan lokasi": "Agency and location details",
   "Pautan pantas kategori pelan": "Quick plan category links",
   "Toggle Navigation": "Toggle navigation",
@@ -1428,12 +1820,77 @@ const textTranslations = {
   "Had Tahunan RM150,000": "RM150,000 Annual Limit",
   "Had Tahunan RM200,000": "RM200,000 Annual Limit",
   "Had Tambahan RM200,000": "RM200,000 Additional Limit",
+  "Had Tahunan Tambahan RM200,000": "RM200,000 Additional Annual Limit",
   "Had Tahunan RM250,000": "RM250,000 Annual Limit",
   "Had Tambahan RM250,000": "RM250,000 Additional Limit",
+  "Had Tahunan Tambahan RM250,000": "RM250,000 Additional Annual Limit",
   "Boost Had Tahunan sehingga RM1 juta": "Annual Limit Boost up to RM1 million",
+  "Boost Had Tahunan Sehingga RM1 Juta": "Annual Limit Boost up to RM1 million",
   "Tiada Had Tahunan": "No Annual Limit",
   "Hibah Asas RM10,000": "RM10,000 Basic Hibah",
   "Hibah Asas RM25,000": "RM25,000 Basic Hibah",
+  "Protect Well (In-Patient)": "Protect Well (In-Patient)",
+  "Pre & Post Hospitalisation (120 hari sebelum & selepas)": "Pre- and Post-Hospitalisation (120 days before and after)",
+  "Pre & Post Hospitalisation": "Pre- and Post-Hospitalisation",
+  "Nilai Tunai (Cash Value)": "Cash Value",
+  "10+ Rider Tambahan": "10+ Additional Riders",
+  "Outpatient Penyakit Berjangkit": "Infectious Disease Outpatient Treatment",
+  "Outpatient Kemalangan": "Accident Outpatient Treatment",
+  "Manfaat Vaksinasi RM300": "RM300 Vaccination Benefit",
+  "Manfaat Vaksinasi": "Vaccination Benefit",
+  "Komplikasi Kehamilan": "Pregnancy Complications",
+  "Had Perlindungan Yang Tinggi": "High Coverage Limit",
+  "Bonus SVP 2%": "2% SVP Bonus",
+  "ICU, Pembedahan, Ambulans & Pemindahan Organ": "ICU, Surgery, Ambulance & Organ Transplant",
+  "Perlindungan Kanser & Penyakit Buah Pinggang": "Cancer & Kidney Disease Coverage",
+  "Outpatient Kanak-kanak": "Children's Outpatient Treatment",
+  "Rawatan Kesihatan Mental": "Mental Health Treatment",
+  "Penjagaan Kejururawatan Di Rumah": "Home Nursing Care",
+  "Dewasa": "Adults",
+  "Serendah RM90 / bulan": "From RM90 / month",
+  "Serendah RM103 / bulan": "From RM103 / month",
+  "Serendah RM113 / bulan": "From RM113 / month",
+  "Serendah RM120 / bulan": "From RM120 / month",
+  "Serendah RM123 / bulan": "From RM123 / month",
+  "Serendah RM135 / bulan": "From RM135 / month",
+  "Serendah RM140 / bulan": "From RM140 / month",
+  "Serendah RM160 / bulan": "From RM160 / month",
+  "Serendah RM185 / bulan": "From RM185 / month",
+  "Serendah RM200 / bulan": "From RM200 / month",
+  "Room & Board": "Room & Board",
+  "Bermula RM200 sehari": "Starting from RM200 per day",
+  "Serendah RM329 / bulan": "From RM329 / month",
+  "Serendah RM369 / bulan": "From RM369 / month",
+  "Serendah RM425 / bulan": "From RM425 / month",
+  "Perbandingan Pelan": "Plan Comparison",
+  "Manfaat": "Benefit",
+  "Basic": "Basic",
+  "Essential": "Essential",
+  "Superior": "Superior",
+  "Elaun Hospital Harian": "Daily Hospital Allowance",
+  "Pembedahan Caesarean Kecemasan": "Emergency Caesarean Section",
+  "Kematian Janin": "Fetal Death",
+  "Kematian Ibu": "Maternal Death",
+  "Kesejahteraan Mental": "Mental Wellness",
+  "Kematian Anak": "Child Death",
+  "ICU / HDU": "ICU / HDU",
+  "Inkubasi Anak Baru Lahir": "Newborn Incubation",
+  "Jaundice Neonatal / Fototerapi": "Neonatal Jaundice / Phototherapy",
+  "Keadaan Kongenital": "Congenital Conditions",
+  "Gangguan Perkembangan Kanak-kanak": "Child Developmental Disorders",
+  "Medical Card Annual Limit": "Medical Card Annual Limit",
+  "Lifetime Limit": "Lifetime Limit",
+  "RM100 / hari": "RM100 / day",
+  "RM300 / hari": "RM300 / day",
+  "RM400 / hari": "RM400 / day",
+  "RM500 / hari": "RM500 / day",
+  "RM200 / hari": "RM200 / day",
+  "RM15,000 setahun": "RM15,000 per year",
+  "RM30,000 setahun": "RM30,000 per year",
+  "RM50,000 setahun": "RM50,000 per year",
+  "RM5,000 setahun": "RM5,000 per year",
+  "Tiada": "None",
+  "Unlimited": "Unlimited",
   "Perlindungan hospital & rawatan perubatan untuk anda dan keluarga": "Hospital and medical coverage for you and your family",
   "Takaful bukan sekadar perlindungan, tetapi pelaburan untuk masa depan.": "Takaful is more than protection — it is an investment in your future.",
   "Lindungi Kewangan Keluarga": "Protect Your Family's Finances",
@@ -1533,7 +1990,6 @@ function setLanguage(lang) {
   const activeScenario = document.querySelector(".senario-tab-btn.active");
   const scenarioKey = activeScenario?.getAttribute("onclick")?.match(/pilihSenario\('([^']+)'/)?.[1] || "wad";
   pilihSenario(scenarioKey, activeScenario);
-  tukarTestimoni(curTestimoni);
   kiraAnggaranLive();
 
   const planPanel = document.getElementById("plan-selection-panel");
@@ -1550,6 +2006,10 @@ function setLanguage(lang) {
   const planTitle = document.getElementById("modalPlanTitle");
   if (planTitle && planTitleInput?.value) {
     planTitle.textContent = teks(planTitleInput.value);
+  }
+  const quotePreview = document.getElementById("plan-quote-preview");
+  if (quotePreview && !quotePreview.hidden && planTitleInput?.value) {
+    renderQuotePreview(planTitleInput.value);
   }
 }
 
@@ -1574,52 +2034,6 @@ function toggleMobileMenu() {
       icon.classList.add("fa-bars");
     }
   }
-}
-
-// ==========================================
-// 12. TESTIMONIAL CAROUSEL
-// ==========================================
-const dataTestimoni = [
-  {
-    teks: "Perkhidmatan yang sangat profesional, mesra dan mudah difahami. Mekja sentiasa memberi penerangan dengan jelas dan membantu saya memilih pelan yang sesuai dengan keperluan keluarga kami.",
-    nama: "Puan Aisyah",
-    lokasi: "Kuala Lumpur"
-  },
-  {
-    teks: "Proses permohonan medical card dan hibah anak-anak sangat pantas! Tak perlu pening dengan istilah rumit, Mekja terangkan satu persatu sehingga saya yakin dan tenang.",
-    nama: "Encik Razak",
-    lokasi: "Kuantan, Pahang"
-  },
-  {
-    teks: "Tuntutan wad anak saya diuruskan dengan amat lancar melalui e-Medical Card tanpa deposit tunai. Sokongan after-sales dari Mekja memang terbaik dan boleh dipercayai!",
-    nama: "Dr. Farhana",
-    lokasi: "Selangor"
-  }
-];
-
-let curTestimoni = 0;
-
-function tukarTestimoni(idx) {
-  curTestimoni = idx;
-  const quoteEl = document.getElementById("testimoni-quote");
-  const authorEl = document.getElementById("testimoni-author");
-  if (quoteEl) quoteEl.innerText = `"${teks(dataTestimoni[idx].teks)}"`;
-  if (authorEl) authorEl.innerText = `— ${teks(dataTestimoni[idx].nama)}, ${dataTestimoni[idx].lokasi}`;
-
-  document.querySelectorAll(".carousel-dot").forEach((d, i) => {
-    if (i === idx) d.classList.add("active");
-    else d.classList.remove("active");
-  });
-}
-
-function prevTestimoni() {
-  curTestimoni = (curTestimoni - 1 + dataTestimoni.length) % dataTestimoni.length;
-  tukarTestimoni(curTestimoni);
-}
-
-function nextTestimoni() {
-  curTestimoni = (curTestimoni + 1) % dataTestimoni.length;
-  tukarTestimoni(curTestimoni);
 }
 
 // ==========================================
@@ -1853,6 +2267,55 @@ function hantarPromoWhatsApp() {
 // 14. INITIALIZATION
 // ==========================================
 document.addEventListener("DOMContentLoaded", () => {
+  const recognitionGallery = document.querySelector(".recognition-gallery");
+  const recognitionSlides = Array.from(document.querySelectorAll(".recognition-card"));
+  const recognitionDots = Array.from(document.querySelectorAll(".recognition-dot"));
+  if (recognitionGallery && recognitionSlides.length && recognitionDots.length) {
+    let activeRecognitionSlide = 0;
+    let recognitionScrollPending = false;
+
+    const showRecognitionSlide = index => {
+      activeRecognitionSlide = (index + recognitionSlides.length) % recognitionSlides.length;
+      recognitionGallery.scrollTo({
+        left: recognitionSlides[activeRecognitionSlide].offsetLeft,
+        behavior: "smooth"
+      });
+      recognitionDots.forEach((dot, dotIndex) => {
+        const isActive = dotIndex === activeRecognitionSlide;
+        dot.classList.toggle("active", isActive);
+        dot.setAttribute("aria-current", String(isActive));
+      });
+    };
+
+    document.querySelectorAll("[data-recognition-direction]").forEach(button => {
+      button.addEventListener("click", () => {
+        showRecognitionSlide(activeRecognitionSlide + Number(button.dataset.recognitionDirection));
+      });
+    });
+    recognitionDots.forEach((dot, index) => {
+      dot.addEventListener("click", () => showRecognitionSlide(index));
+    });
+    recognitionGallery.addEventListener("scroll", () => {
+      if (recognitionScrollPending) return;
+      recognitionScrollPending = true;
+      requestAnimationFrame(() => {
+        const slideWidth = recognitionGallery.clientWidth;
+        if (slideWidth > 0) {
+          const visibleSlide = Math.round(recognitionGallery.scrollLeft / slideWidth);
+          if (visibleSlide !== activeRecognitionSlide) {
+            activeRecognitionSlide = visibleSlide;
+            recognitionDots.forEach((dot, dotIndex) => {
+              const isActive = dotIndex === activeRecognitionSlide;
+              dot.classList.toggle("active", isActive);
+              dot.setAttribute("aria-current", String(isActive));
+            });
+          }
+        }
+        recognitionScrollPending = false;
+      });
+    }, { passive: true });
+  }
+
   const criticalComparison = document.getElementById("critical-comparison-section");
   const criticalComparisonContainer = document.getElementById("critical-comparison-container");
   if (criticalComparison && criticalComparisonContainer) {
@@ -1905,6 +2368,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     allNavLinks.forEach(link => {
+      if (link.dataset.planCategory) {
+        const selectedCategory = document.querySelector(".plan-tab-item.active")?.id.replace("tab-", "");
+        link.classList.toggle("active", activeHref === "#pelan" && link.dataset.planCategory === selectedCategory);
+        return;
+      }
+
       link.classList.toggle("active", link.getAttribute("href") === activeHref);
     });
   };

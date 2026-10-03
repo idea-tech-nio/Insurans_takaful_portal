@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>PruBSN Takaful — NUR EZZATI BINTI MOHAMMAD SALLEH | Perunding Bertauliah Prudential BSN Takaful</title>
+  <title>PruBSN Takaful | Mekja</title>
+  <link rel="icon" type="image/png" href="images/logoprudential.png">
   <meta name="description"
     content="Portal rasmi perunding Prudential BSN Takaful, NUR EZZATI BINTI MOHAMMAD SALLEH. Fahami pelan Medical Card, Hibah Takaful, Pelan Keluarga & Wanita secara telus, mudah dan berpatutan.">
 
@@ -77,19 +78,17 @@
 
       <!-- Brand Logo (PruBSN Takaful) -->
       <a href="#top" class="brand-mark group" aria-label="Laman Utama PruBSN Takaful">
-        <img class="brand-logo-img" src="images/logo.png" alt="Prudential BSN Takaful">
+        <img class="brand-logo-img" src="images/prubsn_logo.webp" alt="Prudential BSN Takaful">
       </a>
 
       <!-- Desktop Navigation Menu -->
       <nav class="hidden lg:flex items-center gap-1 font-medium text-sm text-[#444]">
         <a href="#top" data-i18n="nav-utama" class="nav-link active">Utama</a>
-        <a href="#tentang-saya" data-i18n="nav-tentang" class="nav-link">Tentang Mekja</a>
-        <a href="#pelan" data-i18n="nav-pelan" class="nav-link">Pilihan Pelan</a>
-        <a href="#kalkulator" onclick="event.preventDefault(); bukaKalkulator()" data-i18n="nav-kalkulator" class="nav-link">Kalkulator Hibah</a>
-        <a href="#senario" data-i18n="nav-senario" class="nav-link">Senario Sebenar</a>
-        <a href="#semak" data-i18n="nav-semak" class="nav-link">Semak Keperluan</a>
-        <a href="#faq" onclick="event.preventDefault(); bukaFaq()" data-i18n="nav-faq" class="nav-link">Rujukan &amp; Info</a>
-        <a href="#hubungi" data-i18n="nav-hubungi" class="nav-link">Hubungi Mekja</a>
+        <a href="#pilih-perlindungan" data-i18n="nav-pelan" class="nav-link">Pilihan Pelan</a>
+        <a href="#pelan" onclick="event.preventDefault(); bukaKategoriPelan('hibah')" class="nav-link" data-plan-category="hibah">Hibah Takaful</a>
+        <a href="#pelan" onclick="event.preventDefault(); bukaKategoriPelan('medical')" class="nav-link" data-plan-category="medical">Medical Card</a>
+        <a href="#pelan" onclick="event.preventDefault(); bukaKategoriPelan('kritikal')" class="nav-link" data-plan-category="kritikal">Penyakit Kritikal</a>
+        <a href="#hubungi-mekja" data-i18n="nav-hubungi" class="nav-link">Hubungi Mekja</a>
       </nav>
 
       <!-- Action Area: Language Switcher, WhatsApp & Mobile Menu -->
@@ -134,37 +133,30 @@
           <span>Utama</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
         </a>
-        <a href="#tentang-saya" onclick="toggleMobileMenu()" data-i18n="nav-tentang"
-          class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
-          <span>Tentang Saya</span>
-          <i class="fas fa-chevron-right text-xs opacity-40"></i>
-        </a>
-        <a href="#pelan" onclick="toggleMobileMenu()" data-i18n="nav-pelan"
+        <a href="#pilih-perlindungan" onclick="toggleMobileMenu()" data-i18n="nav-pelan"
           class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
           <span>Pilihan Produk</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
         </a>
-        <a href="#senario" onclick="toggleMobileMenu()" data-i18n="nav-senario"
+        <a href="#pelan" onclick="event.preventDefault(); toggleMobileMenu(); bukaKategoriPelan('hibah')"
+          data-plan-category="hibah"
           class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
-          <span>Senario Sebenar</span>
+          <span>Hibah Takaful</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
         </a>
-        <a href="#kalkulator" onclick="event.preventDefault(); toggleMobileMenu(); bukaKalkulator()" data-i18n="nav-kalkulator"
+        <a href="#pelan" onclick="event.preventDefault(); toggleMobileMenu(); bukaKategoriPelan('medical')"
+          data-plan-category="medical"
           class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
-          <span>Kalkulator Hibah</span>
+          <span>Medical Card</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
         </a>
-        <a href="#semak" onclick="toggleMobileMenu()" data-i18n="nav-semak"
+        <a href="#pelan" onclick="event.preventDefault(); toggleMobileMenu(); bukaKategoriPelan('kritikal')"
+          data-plan-category="kritikal"
           class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
-          <span>Semak Keperluan</span>
+          <span>Penyakit Kritikal</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
         </a>
-        <a href="#faq" onclick="event.preventDefault(); toggleMobileMenu(); bukaFaq()" data-i18n="nav-faq"
-          class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
-          <span>Soalan Lazim</span>
-          <i class="fas fa-chevron-right text-xs opacity-40"></i>
-        </a>
-        <a href="#hubungi" onclick="toggleMobileMenu()" data-i18n="nav-hubungi"
+        <a href="#hubungi-mekja" onclick="toggleMobileMenu()" data-i18n="nav-hubungi"
           class="px-3.5 py-2.5 rounded-xl hover:bg-[#FDE8E9] flex items-center justify-between">
           <span>Hubungi Saya</span>
           <i class="fas fa-chevron-right text-xs opacity-40"></i>
@@ -196,14 +188,6 @@
 
         <!-- Left Column: Editorial Headline & Actions -->
         <div class="lg:col-span-6 space-y-6">
-
-          <!-- Kicker Tag -->
-          <div>
-            <span data-i18n="hero-badge" class="kicker-eyebrow">
-              <span class="w-2 h-2 rounded-full bg-[#ED1B24]"></span>
-              ASSALAMUALAIKUM &amp; SELAMAT DATANG
-            </span>
-          </div>
 
           <!-- Main Editorial Heading -->
           <h1 data-i18n="hero-title"
@@ -337,7 +321,7 @@
   <section class="py-16 md:py-20 bg-white border-b border-[#222]/5">
     <div class="max-w-6xl mx-auto px-5">
 
-      <div class="product-showcase-heading text-center max-w-2xl mx-auto mb-12">
+      <div id="pilih-perlindungan" class="product-showcase-heading text-center max-w-2xl mx-auto mb-12">
         <span class="kicker-eyebrow justify-center">
           <span class="w-2 h-2 rounded-full bg-[#ED1B24]"></span>
           PELAN TAKAFUL TERBAIK DI PRUBSN
@@ -356,7 +340,7 @@
         <!-- 1. PruBSN WarisanGold -->
         <div class="product-showcase-card group">
           <div class="product-showcase-visual">
-            <img src="warisangold.png" alt="Jurnal perancangan kewangan untuk masa depan keluarga"
+            <img src="warisangold.webp" alt="Jurnal perancangan kewangan untuk masa depan keluarga"
               class="product-showcase-image" loading="lazy">
           </div>
           <div class="product-showcase-body">
@@ -398,7 +382,7 @@
         <!-- 3. PruBSN Kritikal Care360 -->
         <div class="product-showcase-card group">
           <div class="product-showcase-visual">
-            <img src="kritikalcare360.png" alt="Doktor bersedia membantu pesakit mendapatkan rawatan"
+            <img src="care360.png" alt="Doktor bersedia membantu pesakit mendapatkan rawatan"
               class="product-showcase-image" loading="lazy">
             <span class="product-showcase-image-caption"><strong>PRUBSN Kritikal Care360</strong><br>Tenang demi mereka<br>yang bergantung pada anda.</span>
           </div>
@@ -430,8 +414,8 @@
           <div class="product-showcase-cta-action">
             <button
               onclick="bukaWhatsAppDirect('Assalamualaikum Mekja, saya ingin berhubung untuk konsultasi percuma.')"
-              class="bg-white text-[#ED1B24] font-bold py-3 px-6 rounded-full text-sm hover:bg-gray-50 transition btn-magnetic inline-flex items-center gap-2">
-              <i class="fab fa-whatsapp"></i> Hubungi Sekarang
+              class="btn-whatsapp btn-magnetic">
+              <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp Sekarang
             </button>
           </div>
         </div>
@@ -566,7 +550,7 @@
           <ol class="protection-steps">
             <li class="protection-step">
               <span class="protection-step-number">01</span>
-              <img src="Keluarga.png" alt="Perunding membantu merancang perlindungan keluarga" loading="lazy">
+              <img src="Lindungi Kewangan Keluarga.png" alt="Perunding membantu merancang perlindungan keluarga" loading="lazy">
               <h4>Lindungi Kewangan Keluarga</h4>
               <p>Sediakan manfaat kewangan untuk membantu keluarga menghadapi perkara yang tidak dijangka.</p>
             </li>
@@ -578,7 +562,7 @@
             </li>
             <li class="protection-step">
               <span class="protection-step-number">03</span>
-              <img src="Bantu Selesaikan Komitmen Kewangan.png" alt="Ruang kerja dan perancangan kewangan keluarga" loading="lazy">
+              <img src="Bantu Selesaikan Komitmen.png" alt="Ruang kerja dan perancangan kewangan keluarga" loading="lazy">
               <h4>Bantu Selesaikan Komitmen</h4>
               <p>Manfaat hibah boleh membantu keluarga mengurus pinjaman rumah, hutang dan perbelanjaan harian.</p>
             </li>
@@ -630,16 +614,13 @@
            4. DYNAMIC INTERACTIVE PLAN EXPLORER (TABBED)
            ========================================== -->
       <div id="pelan" class="pt-6">
-        <div class="text-center max-w-2xl mx-auto mb-8">
-          <span class="kicker-eyebrow justify-center">
-            <span class="w-2 h-2 rounded-full bg-[#ED1B24]"></span>
-            EKSPLORASI TERPERINCI
-          </span>
-          <h3 class="font-serif text-2xl md:text-3xl font-bold text-[#222] mt-2">
-            Pilih Kategori Pelan Mengikut Keutamaan
+        <div class="plan-explorer-heading text-center mx-auto mb-8">
+          <span class="plan-explorer-kicker">PRUDENTIAL BSN TAKAFUL</span>
+          <h3 class="plan-explorer-title">
+            <span>PELAN TAKAFUL TERBAIK DI </span><span class="plan-explorer-brand"><span class="plan-explorer-pru">PRU</span> <span class="plan-explorer-bsn">BSN</span></span>
           </h3>
-          <p class="text-[#444] text-xs md:text-sm mt-2">
-            Klik kategori di bawah untuk menyemak butiran manfaat dan mendapatkan sebut harga percuma:
+          <p class="plan-explorer-description">
+            Pilih perlindungan yang sesuai untuk diri, keluarga dan masa depan anda.
           </p>
           <button id="category-toggle-btn" type="button" onclick="toggleKategoriPelan()"
             class="category-toggle-btn mt-5" aria-expanded="false" aria-controls="plan-selection-panel">
@@ -665,7 +646,36 @@
           </button>
         </div>
 
-        <div id="category-journey-container" class="category-journey-container"></div>
+        <div id="category-journey-container" class="category-journey-container">
+          <!-- Senario dipaparkan di atas kad pelan hanya untuk kategori penyakit kritikal. -->
+          <section id="senario" class="scenario-section mb-10"
+            aria-labelledby="senario-title" hidden>
+            <div class="scenario-content">
+              <div class="scenario-heading">
+                <h2 id="senario-title">Bagaimana Takaful Membantu?</h2>
+              </div>
+
+              <div class="scenario-tabs">
+                <button onclick="pilihSenario('wad', this)"
+                  class="senario-tab-btn active">
+                  🏥 Kemasukan Wad Hospital
+                </button>
+                <button onclick="pilihSenario('kritikal', this)"
+                  class="senario-tab-btn">
+                  ⚠️ Sakit Kritikal &amp; Hilang Upaya
+                </button>
+                <button onclick="pilihSenario('keluarga', this)"
+                  class="senario-tab-btn">
+                  🕊️ Kematian Pencari Nafkah
+                </button>
+              </div>
+
+              <div id="senario-display-card" class="scenario-display-card">
+                <!-- Kandungan senario dijana melalui script.js. -->
+              </div>
+            </div>
+          </section>
+        </div>
 
         <!-- Dynamic Plan Cards Container -->
         <h4 id="plan-category-title" class="plan-category-title">Pilihan Pelan Hibah Takaful</h4>
@@ -835,50 +845,6 @@
           </ul>
         </div>
 
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ==========================================
-       7. REAL-LIFE SCENARIOS (INTERACTIVE USE CASES)
-       ========================================== -->
-  <section id="senario" class="py-16 md:py-20 bg-[#222] text-white relative overflow-hidden">
-    <div class="max-w-6xl mx-auto px-5 relative z-10">
-
-      <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="kicker-eyebrow justify-center text-[#ED1B24]">
-          <span class="w-2 h-2 rounded-full bg-[#ED1B24]"></span>
-          UJIAN HIDUP &amp; PERLINDUNGAN
-        </span>
-        <h2 class="font-serif text-2xl md:text-3xl font-bold text-white mt-3">
-          Situasi Kehidupan Sebenar: Bagaimana Takaful Membantu?
-        </h2>
-        <p class="text-slate-300 text-xs md:text-sm mt-2">
-          Pilih salah satu senario di bawah untuk melihat bagaimana pelan takaful bertindak melindungi anda:
-        </p>
-      </div>
-
-      <!-- Scenario Selector Buttons -->
-      <div class="flex flex-wrap justify-center gap-2.5 mb-8">
-        <button onclick="pilihSenario('wad', this)"
-          class="senario-tab-btn active px-4 py-2.5 rounded-full text-xs md:text-sm font-semibold border border-white/20 hover:bg-white/10 transition">
-          🏥 Kemasukan Wad Hospital
-        </button>
-        <button onclick="pilihSenario('kritikal', this)"
-          class="senario-tab-btn px-4 py-2.5 rounded-full text-xs md:text-sm font-semibold border border-white/20 hover:bg-white/10 transition text-slate-200">
-          ⚠️ Sakit Kritikal &amp; Hilang Upaya
-        </button>
-        <button onclick="pilihSenario('keluarga', this)"
-          class="senario-tab-btn px-4 py-2.5 rounded-full text-xs md:text-sm font-semibold border border-white/20 hover:bg-white/10 transition text-slate-200">
-          🕊️ Kematian Pencari Nafkah
-        </button>
-      </div>
-
-      <!-- Interactive Scenario Display Card -->
-      <div id="senario-display-card"
-        class="bg-white rounded-3xl p-6 md:p-10 shadow-float text-[#444] max-w-4xl mx-auto">
-        <!-- Rendered via script.js -->
       </div>
 
     </div>
@@ -1077,13 +1043,6 @@
             </div>
           </div>
 
-          <div class="pt-2">
-            <button onclick="hantarCalcWhatsApp()"
-              class="w-full btn-forest-primary justify-center text-xs md:text-sm py-3.5">
-              <i class="fas fa-paper-plane"></i> Hantar Maklumat Ini Untuk Quotation Rasmi
-            </button>
-          </div>
-
         </div>
 
         <!-- Live Result Display -->
@@ -1214,55 +1173,58 @@
   <section class="py-16 md:py-24 bg-white border-y border-[#222]/5">
     <div class="max-w-6xl mx-auto px-5">
 
-      <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+      <div class="recognition-contact-grid grid lg:grid-cols-12 gap-8 items-stretch">
 
-        <!-- Left Column: Testimonial Card -->
-        <div class="lg:col-span-5 flex flex-col justify-between space-y-6">
+        <!-- Left Column: Recognition and Achievements -->
+        <div class="lg:col-span-5 flex flex-col space-y-6">
           <div>
             <span class="kicker-eyebrow">
               <span class="w-2 h-2 rounded-full bg-[#ED1B24]"></span>
-              APA KATA PELANGGAN?
+              Pengiktirafan
             </span>
             <h2 class="font-serif text-2xl md:text-3xl font-bold text-[#222] mt-2">
-              Kepuasan Mereka Inspirasi Saya
+              Pencapaian &amp; Pengiktirafan Prudential BSN Takaful
             </h2>
+            <p class="text-sm text-[#666] leading-relaxed mt-3">
+              Lihat pengiktirafan dan pencapaian yang menjadi sebahagian daripada perjalanan kami.
+            </p>
           </div>
 
-          <!-- Testimonial Speech Card -->
-          <div
-            class="bg-[#F8F9FA] p-6 md:p-8 rounded-3xl border border-[#E0E0E0] relative flex-1 flex flex-col justify-between">
-            <div class="text-[#ED1B24] text-4xl font-serif mb-2">&ldquo;</div>
-            <p id="testimoni-quote" class="text-xs md:text-sm text-[#444] leading-relaxed italic">
-              "Perkhidmatan yang sangat profesional, mesra dan mudah difahami. Mekja sentiasa memberi penerangan
-              dengan jelas dan membantu saya memilih pelan yang sesuai dengan keperluan keluarga kami."
-            </p>
-            <div class="mt-6 pt-4 border-t border-[#222]/10 flex items-center justify-between">
-              <div>
-                <p id="testimoni-author" class="font-serif text-sm font-bold text-[#222]">
-                  — Puan Aisyah, Kuala Lumpur
-                </p>
+          <div class="recognition-carousel" aria-label="Pengiktirafan Prudential BSN Takaful">
+            <div class="recognition-gallery">
+            <figure class="recognition-card">
+              <img src="images/takaful-star-award-2026-agency.png"
+                alt="Pengiktirafan Takaful Star Awards 2026: Pengendali Takaful Terbaik Takaful Keluarga (Perniagaan Agensi), 13 tahun berturut-turut."
+                loading="lazy">
+            </figure>
+            <figure class="recognition-card">
+              <img src="images/takaful-star-award-2026-recognition.png"
+                alt="Takaful Star Awards 2026: setiap kemenangan melambangkan keyakinan rakyat Malaysia untuk terus dilindungi bersama PruBSN."
+                loading="lazy">
+            </figure>
+            </div>
+            <div class="recognition-carousel-controls">
+              <button type="button" class="recognition-arrow" data-recognition-direction="-1"
+                aria-label="Gambar pengiktirafan sebelumnya">
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>
+              </button>
+              <div class="recognition-dots" aria-label="Pilih gambar pengiktirafan">
+                <button type="button" class="recognition-dot active" data-recognition-slide="0"
+                  aria-label="Lihat gambar pengiktirafan 1" aria-current="true"></button>
+                <button type="button" class="recognition-dot" data-recognition-slide="1"
+                  aria-label="Lihat gambar pengiktirafan 2" aria-current="false"></button>
               </div>
-
-              <!-- Carousel Dots & Arrows -->
-              <div class="flex items-center gap-2">
-                <button onclick="prevTestimoni()" class="testimonial-arrow-btn" aria-label="Testimoni Sebelum">
-                  <i class="fas fa-chevron-left text-xs"></i>
-                </button>
-                <div class="flex items-center gap-1.5 px-1">
-                  <span onclick="tukarTestimoni(0)" class="carousel-dot active"></span>
-                  <span onclick="tukarTestimoni(1)" class="carousel-dot"></span>
-                  <span onclick="tukarTestimoni(2)" class="carousel-dot"></span>
-                </div>
-                <button onclick="nextTestimoni()" class="testimonial-arrow-btn" aria-label="Testimoni Seterusnya">
-                  <i class="fas fa-chevron-right text-xs"></i>
-                </button>
-              </div>
+              <button type="button" class="recognition-arrow" data-recognition-direction="1"
+                aria-label="Gambar pengiktirafan seterusnya">
+                <i class="fas fa-chevron-right" aria-hidden="true"></i>
+              </button>
             </div>
           </div>
         </div>
 
         <!-- Middle Column: Mudah Dihubungi -->
         <div
+          id="hubungi-mekja"
           class="lg:col-span-4 bg-[#F8F9FA] p-6 md:p-8 rounded-3xl border border-[#E0E0E0] flex flex-col justify-between">
           <div>
             <h3 class="font-serif text-xl font-bold text-[#222] mb-1">Mudah Dihubungi</h3>
@@ -1314,6 +1276,21 @@
                 <div class="text-[10px] text-[#777]">Kuantan, Pahang</div>
               </a>
             </div>
+
+            <div class="contact-social-links" aria-label="Ikuti saya di media sosial">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                title="Facebook" aria-label="Facebook" class="contact-social-link contact-social-facebook">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer"
+                title="TikTok" aria-label="TikTok" class="contact-social-link contact-social-tiktok">
+                <i class="fab fa-tiktok" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/mekmuk?stkn=aXo1amIwMjR3bjJw" target="_blank" rel="noopener noreferrer"
+                title="Instagram" aria-label="Instagram" class="contact-social-link contact-social-instagram">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
           </div>
 
           <div class="pt-6 text-center">
@@ -1325,9 +1302,9 @@
 
         <!-- Right Column: Visual Journal Lifestyle -->
         <div
-          class="lg:col-span-3 rounded-3xl overflow-hidden shadow-card border border-[#222]/10 relative min-h-[280px]">
+          class="contact-visual-card lg:col-span-3 rounded-3xl overflow-hidden shadow-card border border-[#222]/10 relative min-h-[280px]">
           <img src="Mekja.jpg" alt="Perancangan Hari Ini Ketenangan Esok — Buku Perancang Kewangan Takaful"
-            class="w-full h-full object-cover">
+            class="contact-visual-image w-full h-full object-cover">
           <div
             class="absolute inset-0 bg-gradient-to-t from-[#222]/85 via-[#222]/20 to-transparent p-6 flex flex-col justify-end text-white">
             <span class="text-[10px] font-bold tracking-widest uppercase text-[#ED1B24] mb-1"></span>
@@ -1449,7 +1426,7 @@
 
       <div class="footer-main-row">
         <div class="footer-brand">
-          <img class="brand-logo-img footer-brand-logo" src="images/logo.png" alt="Prudential BSN Takaful">
+          <img class="brand-logo-img footer-brand-logo" src="images/prubsn_logo.webp" alt="Prudential BSN Takaful">
         </div>
 
         <div class="footer-socials">
@@ -1551,7 +1528,7 @@
   <!-- ==========================================
        15. FLOATING INTERACTIVE CHAT ASSISTANT
        ========================================== -->
-  <div id="quickActionsWidget" class="quick-actions-widget">
+  <div id="quickActionsWidget" class="quick-actions-widget" hidden>
     <button type="button" class="quick-actions-close" onclick="sembunyiButangPantas()"
       aria-label="Sembunyikan butang pantas" title="Sembunyikan butang pantas">
       <i class="fas fa-xmark" aria-hidden="true"></i>
@@ -1569,7 +1546,7 @@
   </div>
 
   <button id="quickActionsShowBtn" type="button" class="quick-actions-show" onclick="paparButangPantas()"
-    aria-label="Paparkan butang pantas" title="Paparkan butang pantas" style="display: none;">
+    aria-label="Paparkan butang pantas" title="Paparkan butang pantas">
     <i class="fas fa-ellipsis" aria-hidden="true"></i>
   </button>
 
@@ -1580,7 +1557,7 @@
       class="bg-gradient-to-r from-[#ED1B24] to-[#D01018] text-white p-4 flex items-center justify-between border-b border-white/10">
       <div class="flex items-center gap-3">
         <div class="relative w-10 h-10 rounded-full overflow-hidden border-2 border-white/40">
-          <img src="consultant.jpg" alt="NUR EZZATI BINTI MOHAMMAD SALLEH" class="w-full h-full object-cover">
+          <img src="makuda.webp" alt="NUR EZZATI BINTI MOHAMMAD SALLEH" class="w-full h-full object-cover">
         </div>
         <div>
           <h4 class="font-serif font-bold text-sm leading-tight">NUR EZZATI BINTI MOHAMMAD SALLEH</h4>
@@ -1667,10 +1644,26 @@
         <h3 id="modalPlanTitle" class="font-serif text-2xl font-bold text-[#222] mt-2">
           Nama Pelan
         </h3>
-        <p class="text-xs text-[#777] mt-1">Sila lengkapkan maklumat ringkas untuk penyediaan quotation rasmi.</p>
+        <p id="modalPlanDescription" class="text-xs text-[#777] mt-1">Sila lengkapkan maklumat ringkas untuk penyediaan quotation rasmi.</p>
       </div>
 
-      <form onsubmit="hantarModalQuotation(event)" class="space-y-4">
+      <section id="plan-quote-preview" class="plan-quote-preview" hidden
+        aria-label="Ringkasan anggaran pelan">
+        <div id="plan-quote-preview-content"></div>
+        <div class="plan-quote-preview-actions">
+          <button type="button"
+            onclick="whatsappPelanPreview()"
+            class="btn-whatsapp w-full justify-center">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp Mekja
+          </button>
+          <button type="button" onclick="teruskanSebutHargaPreview()"
+            class="plan-quote-continue-btn">
+            Teruskan untuk sebut harga <i class="fas fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </section>
+
+      <form id="planQuoteForm" onsubmit="hantarModalQuotation(event)" class="space-y-4">
         <input type="hidden" id="modalPlanNameInput" value="">
 
         <div>
